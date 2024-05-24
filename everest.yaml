@@ -1,0 +1,12 @@
+- Name: CelesteTASLobbyWarpHelper
+  Version: 0.1.0
+  DLL: bin/CelesteTASLobbyWarpHelper.dll
+  Dependencies:
+    - Name: EverestCore
+      Version: 1.4673.0
+    - Name: CelesteTAS
+      Version: 3.39.5
+    - Name: CollabUtils2
+      Version: 1.10.9
+    - Name: CelesteTASHook
+      Version: 0.1.0
