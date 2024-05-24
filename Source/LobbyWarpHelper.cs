@@ -32,7 +32,7 @@ public static class LobbyWarpHelper {
         }
         var warps = level.Tracker.GetEntities<LobbyMapWarp>();
         var controller = level.Tracker.GetEntity<LobbyMapController>();
-        if (controller is null || !warps.Any()) {
+        if (controller is null) {
             return false;
         }
         var visitedTiles = generateVisitedTiles(controller.Info, controller.VisitManager);
